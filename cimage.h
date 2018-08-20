@@ -6,6 +6,7 @@
 #include <QImage>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
+#include <opencv2/imgcodecs.hpp>
 
 class CImage
 {

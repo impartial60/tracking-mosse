@@ -1,6 +1,6 @@
 QT += core gui multimedia
 
-CONFIG += qt staticlib
+#CONFIG += qt staticlib
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -39,8 +39,8 @@ RESOURCES += \
 #LIBS += -L$$A_OPENCV/libs/armeabi-v7a/
 
 LIBS += -lopencv_highgui \
-        -lopencv_video \
-#        -lopencv_androidcamera \
+        -lopencv_videoio \
+        -lopencv_imgcodecs \
         -lopencv_imgproc \
         -lopencv_core
 
